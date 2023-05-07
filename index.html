@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Shopping Cart</title>
+  <link rel="stylesheet" href="./styles.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
+  <link rel="shortcut icon" href="./logo.png" type="image/x-icon" />
+</head>
+
+<body>
+  <div class="main">
+    <div class="navbar">
+      <h2 class="heading">MeShop.</h2>
+      <nav>
+        <ul class="anchors">
+          <li><a href="./index.html">Home</a></li>
+          <li><a href="./login/login.html">Login</a></li>
+          <li><a href="./Signup/signup.html">Signup</a></li>
+          <!-- <li><a href="#">My Cart</a></li> -->
+        </ul>
+      </nav>
+    </div>
+    <div class="para-1">
+      <div class="para-2">
+      <h1>MeShop</h1>
+      <p>My First Shop built on HTML,CSS and JavaScript</p>
+      <button id="login">Login</button>
+      <button id="signup">Signup</button>
+    </div>
+    </div>
+    <div class="container">
+      <div class="product">
+        <img src="./shirt.jpg" alt="shirt" class="shirt-img">
+        <div id="df">
+          <span class="price" style="font-weight: 600;">$100</span>
+          <span class="size-chart" style="font-weight: 600;">S, M, L</span>
+        </div>
+       
+        <div class="colors" style="font-weight: 600;">Colors:
+          <div class="swatches">
+            <span class="color-swatch" style="background-color: #167f4b;"></span>
+            <span class="color-swatch" style="background-color: #4938AF;"></span>
+            <span class="color-swatch" style="background-color: blue;"></span>
+          </div>
+        </div>
+
+
+
+        <div class="rating" style="font-weight: 600;">Rating:
+          <span class="fa fa-star star" style="color: #786009;"></span>
+          <span class="fa fa-star star" style="color: #765e09"></span>
+          <span class="fa fa-star star" style="color: #6d580a;"></span>
+        </div>
+
+        <!--<button id="addCart" style="font-weight: 600;">Add To Cart</button>-->
+      </div>
+      <div class="landing">
+        <img src="./landingPagePic.png" alt="image" class="img-3">
+      </div>
+    </div>
+  </div>
+
+  <script src="./script.js"></script>
+</body>
+
+</html>
